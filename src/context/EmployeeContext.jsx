@@ -5,52 +5,52 @@ const EmployeeContext = createContext();
 
 // dummy data - TODO: replace with real API later
 const INITIAL_EMPLOYEES = [
-  {
-    id: uuidv4(),
-    name: "John Doe",
-    email: "john.doe@company.com",
-    department: "Engineering",
-    role: "Senior Developer",
-    dateOfJoining: "2023-01-15",
-    status: "Active",
-  },
-  {
-    id: uuidv4(),
-    name: "Jane Smith",
-    email: "jane.smith@company.com",
-    department: "HR",
-    role: "HR Manager",
-    dateOfJoining: "2022-06-10",
-    status: "Active",
-  },
-  {
-    id: uuidv4(),
-    name: "Mike Johnson",
-    email: "mike.johnson@company.com",
-    department: "Marketing",
-    role: "Marketing Specialist",
-    dateOfJoining: "2023-03-20",
-    status: "Inactive", // left the company
-  },
-  {
-    id: uuidv4(),
-    name: "Sarah Wilson",
-    email: "sarah.wilson@company.com",
-    department: "Engineering",
-    role: "Frontend Developer",
-    dateOfJoining: "2023-08-01",
-    status: "Active",
-  },
-  {
-    id: uuidv4(),
-    name: "David Brown",
-    email: "david.brown@company.com",
-    department: "Finance",
-    role: "Financial Analyst",
-    dateOfJoining: "2022-11-15",
-    status: "Active",
-  },
-];
+    {
+      id: uuidv4(),
+      name: "Rajesh Kumar",
+      email: "rajesh.kumar@gmail.com",
+      department: "Engineering",
+      role: "Senior Developer",
+      dateOfJoining: "2023-01-15",
+      status: "Active",
+    },
+    {
+      id: uuidv4(),
+      name: "Priya Sharma", 
+      email: "priya.sharma@gmail.com",
+      department: "HR",
+      role: "HR Manager",
+      dateOfJoining: "2022-06-10",
+      status: "Active",
+    },
+    {
+      id: uuidv4(),
+      name: "Amit Patel",
+      email: "amit.patel@gmail.com",
+      department: "Marketing", 
+      role: "Marketing Specialist",
+      dateOfJoining: "2023-03-20",
+      status: "Inactive", // left the company
+    },
+    {
+      id: uuidv4(),
+      name: "Sneha Reddy",
+      email: "sneha.reddy@gmail.com",
+      department: "Engineering",
+      role: "Frontend Developer", 
+      dateOfJoining: "2023-08-01",
+      status: "Active",
+    },
+    {
+      id: uuidv4(),
+      name: "Vikash Singh",
+      email: "vikash.singh@gmail.com",
+      department: "Finance",
+      role: "Financial Analyst",
+      dateOfJoining: "2022-11-15", 
+      status: "Active",
+    },
+  ];
 
 const employeeReducer = (state, action) => {
   switch (action.type) {
